@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expense_Tracker</title>
-    <link rel="stylesheet"  href="style.css">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h2>Expense Tracker</h2>
@@ -21,28 +21,21 @@
                 <p id="money-minus" class="money minus">$0.00</p>
             </div>
         </div>
-        <h3>history</h3>
-        <ul id="list" class="list">
-
-        </ul>
-        <h3>Add new transcation</h3>
-            <form action="" id="form">
-                <div class="form-control">
-                    <label for="text"> text</label><br>
-                    <input type="text" id="text" placeholder="Please enter the item name">
-                </div>
-
-                <div class="form-control">
-                    <label for="ammount"> Ammount <br/>(negative=expense, positive=income)</label>
-                    <input type="text" id="text" placeholder="Please enter the ammount">
-                </div>
-
-                <button class="btn"> Add transcation</button>
-            </form>
-
+        <h3>History</h3>
+        <ul id="list" class="list"></ul>
+        <h3>Add New Transaction</h3>
+        <form id="form">
+            <div class="form-control">
+                <label for="text">Text</label><br>
+                <input type="text" id="text" placeholder="Please enter the item name">
+            </div>
+            <div class="form-control">
+                <label for="amount">Amount <br />(negative=expense, positive=income)</label>
+                <input type="text" id="amount" placeholder="Please enter the amount">
+            </div>
+            <button class="btn">Add Transaction</button>
+        </form>
     </div>
-    <script src="script.js">
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
